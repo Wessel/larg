@@ -8,6 +8,7 @@
   "files": [ "index.js", "LICENSE" ],
   "bugs": { "url": "https://www.github.com/PassTheWessel/larg/issues" },
   "homepage": "https://www.github.com/PassTheWessel/larg#readme",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://www.github.com/PassTheWessel/larg"
