@@ -1,5 +1,5 @@
 # larg
-> A lightweight Node.js argument parser which can be used in various ways
+> A lightweight Node.js argument parser which can be used in various ways.
 
 > [GitHub](https://www.github.com/PassTheWessel/larg) **|** [NPM](https://www.npmjs.com/package/larg)
 
@@ -26,5 +26,5 @@ $ node test.js -x 3 -y 4 -ab --beep=boop foo bar
   beep: 'boop' }
 ```
 
-### Why should i use larg?
-Larg is very lightweight (3.45kb total) comparing to other packages such as optimist and minimist
+### Why should I use larg?
+Larg is very lightweight (3.45kb total) comparing to other packages such as optimist and minimist.
