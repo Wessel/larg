@@ -27,4 +27,4 @@ $ node test.js -x 3 -y 4 -ab --beep=boop foo bar
 ```
 
 ### Why should I use larg?
-Larg is very lightweight (3.45kb total) comparing to other packages such as optimist and minimist.
+Larg is very lightweight (3.45kb total, 569b minified in **dist/larg.min.js**) comparing to other packages such as optimist and minimist.
