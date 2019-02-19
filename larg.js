@@ -11,8 +11,8 @@ module.exports = (args) => {
   const cApplicable = (v) => ( isNaN(v) ? (v.toString().toLowerCase() === 'true' ? true : (v.toString().toLowerCase() === 'false' ? false : v)) : Number(v));
 
   for (let _ = 0; _ < args.length; _++) {
-    const e = args[i].indexOf('=');
-    const r = args[i].charAt(0) === '-' && args.length - 1 >= i + 1 && args[_ + 1].indexOf('=') === -1 && args[_ + 1].charAt(0) !== '-';
+    const e = args[_].indexOf('=');
+    const r = args[_].charAt(0) === '-' && args.length - 1 >= _ + 1 && args[_ + 1].indexOf('=') === -1 && args[_ + 1].charAt(0) !== '-';
     const n = e === -1 ? rHyphens(args[_]) : rHyphens(args[_].slice(0, e));
 
     if ( e !== -1 ) p[ n ] = cApplicable( args[ i ].slice(e + 1));
