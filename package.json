@@ -7,7 +7,8 @@
   "main": "larg.js",
   "files": [
     "larg.js",
-    "LICENSE"
+    "LICENSE",
+    "index.d.ts"
   ],
   "bugs": {
     "url": "https://www.github.com/PassTheWessel/larg/issues"
@@ -34,7 +35,7 @@
     "lightweight"
   ],
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-minify": "^3.1.0"
+    "gulp": "4.0.0",
+    "gulp-minify": "3.1.0"
   }
 }
