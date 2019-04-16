@@ -2,7 +2,7 @@
  * Parse arguments of an array
  * @param {Array} args - The arguments to parse
  * @returns {Object} - The parsed arguments
- */
+*/
 module.exports = (args) => {
   let p = {};
   let l = [];

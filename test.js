@@ -1,1 +1,1 @@
-console.log( require( './' )( process.argv.slice( 2 ) ) )
+console.log(require('./')(process.argv.slice(2)));

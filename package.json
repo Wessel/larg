@@ -1,6 +1,6 @@
 {
   "name": "larg",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "👾 A very lightweight Node.js argument parser",
   "author": "Wessel \"wesselgame\" T <discord@go2it.eu>",
   "license": "MIT",
@@ -11,13 +11,13 @@
     "index.d.ts"
   ],
   "bugs": {
-    "url": "https://www.github.com/PassTheWessel/larg/issues"
+    "url": "https://github.com/PassTheWessel/larg/issues"
   },
-  "homepage": "https://www.github.com/PassTheWessel/larg#readme",
+  "homepage": "https://github.com/PassTheWessel/larg#readme",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/PassTheWessel/larg"
+    "url": "https://github.com/PassTheWessel/larg"
   },
   "scripts": {
     "test": "node test.js"
